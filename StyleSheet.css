@@ -1,0 +1,163 @@
+﻿body {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #F8BBD0;
+    background-image: url("tlo5.png");
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Panel1 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 70px;
+    white-space: nowrap;
+}
+
+#Credits {
+    background-color: #F48FB1;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: double;
+    display: flex;
+    font-size: 16px;
+
+    position: absolute;
+    top: 0%;
+    right: 20%;
+}
+
+#Credits2 {
+    background-color: #F48FB1;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: double;
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    top: 0%;
+    right: 26%;
+}
+
+h1 {
+    text-align: center;
+    border-width: Thick;
+    border-style: Solid;
+    border-color: #808080;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    border-radius: 15px/45px;
+}
+
+h5 {
+    border-width: 20px;
+    border-style: Outset;
+    border-color: Red;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+    font: bold 1.0em Calibri;
+    margin-top: 0em;
+    text-align: right;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tekst1 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+h3 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+
+    display: block;
+    font-size: 1.5em;
+    font-weight:400;
+}
+
+p {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: Blue;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left:10px;
+    padding-right:10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 15px;
+}
+
+ul {
+    border-width: Thin;
+    border-style: Solid;
+    border-color: Orange;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.charts {
+    font: bold 1.5em Calibri;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.obwod {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dDownList {
+width:50px;
+
+}
+
+.logPanel {
+    display: inline-block;
+    width: 535px;
+    text-justify: inter-word;
+    text-align: justify;
+    font-family: Consolas, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 0;
+}
+
+td {
+    padding: 2px 0;
+}
+

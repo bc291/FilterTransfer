@@ -1,0 +1,78 @@
+﻿body {
+
+    background-color: black
+
+}
+
+h1 {
+    text-align:center;
+
+    color:dimgrey;
+    font-size:55px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    position:relative;
+    letter-spacing:-5px;
+    
+}
+    h1:after {
+        text-align: center;
+        font-size: 55px;
+        content: "Wyniki symulacji przeprowadzonej w programie PSPICE";
+        position: absolute;
+        left: 405px;
+        top: 5px;
+        color:white;
+    }
+
+.obwod {
+    height: auto;
+    width: auto;
+    max-width: 1500px;
+    max-height: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tekst1 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+#BackButton {
+    background-color: #F48FB1;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: double;
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
